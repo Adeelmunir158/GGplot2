@@ -1,0 +1,30 @@
+require(ggplot2)
+
+g=ggplot(mpg, aes(displ, hwy, col=drv))+
+           geom_point()
+g
+
+require(ggthemes)
+g+theme_base()
+g+theme_calc()
+g+theme_clean()
+g+theme_economist()
+g+theme_economist_white()
+g+theme_excel()
+g+theme_excel_new()
+g+theme_few()
+g+theme_fivethirtyeight()
+g+theme_foundation()
+g+theme_gdocs()
+g+theme_hc()
+g+theme_igray()
+g+theme_map()
+g+theme_pander()
+g+theme_par()
+g+theme_solarized()
+g+theme_solarized_2()
+g+theme_solid()
+g+theme_stata()
+g+theme_tufte()
+g+theme_wsj()
+
